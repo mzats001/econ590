@@ -1,13 +1,7 @@
 # econ590
 HW stuff
 Problem Set 1
-Special Topics in Economics (Econ 590)
-Cal State Fullerton
-Due: Febrary 11, 11:59 pm PST
-Rules
-Submit a single file named assighment1 Name Lastname.pdf to Canvas by the date and time above.
-You can convert Jupyter Notebook file (.ipynb) to pdf file by clicking File-Download-Pdf via Latex.
-This file must contain problem set writeup, code, and output.
+
 Problem 1: For Loop (10 points)
 Use a for loop to:
 a. Print the numbers 0 to 100
@@ -17,6 +11,7 @@ d. Print for each of the numbers x = 2; : : : 20, all numbers that divide x, exc
 for 18, it should print 2 3 6 9.
 e. The smallest number that is divisible by 2, 3 and 4 is 12. Find the smallest number that is divisible
 by all integers between 1 and 10.
+
 Problem 2: Numpy (20 points)
 Generate matrices A, with random Gaussian entries B, a Toeplitz matrix, where A ∈ R
 nxm , B ∈ R
@@ -30,8 +25,11 @@ that is closest to z. it should print the closest value, not index.
 Hint: Use the built-in functionality of Numpy rather than writing code to find this value manually.
 In particular, use brackets and argmin.
 1
+
+
 Problem 3: Pandas (20 points)
 Complete three exercises that we started during the class.
+
 Problem 4: Pandas (20 points)
 We are going to analyze the cost of college data scorecard provided by the federal government. Here is
 the link - https://collegescorecard.ed.gov/data/. Columns of interests are Columns of interest UNITID,
@@ -42,6 +40,7 @@ c. Find the top 10 schools with the best sat scores
 d. Find the top 10 best return of investment
 e. Find average median earnings per state
 f. Compute the correlation between the SAT scores and median income
+
 Problem 5: Data anaylsis and visualization(30)
 You will use Pandas to analyze the Google Play Store data set. I will ask you to manipulate the data in
 certain ways in order to show different interesting visualizations. Specifically, you will:
