@@ -44,23 +44,32 @@ f. Compute the correlation between the SAT scores and median income
 Problem 5: Data anaylsis and visualization(30)
 You will use Pandas to analyze the Google Play Store data set. I will ask you to manipulate the data in
 certain ways in order to show different interesting visualizations. Specifically, you will:
+
 a. Load the googleplaystore user reviews.csv (reviews) and googleplaystore.csv (apps) data sets
 as pandas DataFrames. You should use the pd.read csv() function for this purpose.
+
 b. Delete any review that does not contain either a Translated Review or a Sentiment. The pd.dropna
 function will be helpful for this.
+
 c. Remove any apps whose Rating is invalid (higher than 5).
+
 d. Produce a pie chart with the Android Ver requirements for the different apps. Group together all
 versions that make up less than 5% of the total apps into a single ‘Others’ category. This should
 look similar to Figure 1a.
+
 e. Create a similar pie chart for app Category. In this case, group together categories that make up
 less than 3% of the apps. The resulting graph should look something like Figure 1b.
+
 f. Show histograms of the Rating and Reviews across all apps, with 20 bins each. Example histograms
 can be seen in Figure 1c.
+
 g. Plot a bar chart with the different Sentiment. The sentiments chart should look similar to Figure
 1d.
+
 h. Combine the two DataFrames into a single one, based on the App names. You should make sure
 that all apps from the apps DataFrame are kept, and no app beyond those is added. The pd.merge
 function will be useful for this.
+
 2
 Figure 1: A boat.
 i. Group the Sentiment by rounded Rating, and produce a bar chart where you display the different
